@@ -1,0 +1,45 @@
+{
+    "author": "Sonny_Jim",
+    "dependencies": {},
+    "keywords": [],
+    "name": "bangface",
+    "pebble": {
+        "displayName": "Bangface",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bangface_bg.png",
+                    "name": "IMG_BF_BG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bangface_face.png",
+                    "name": "IMG_BF_FACE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bangface_smiley.png",
+                    "name": "IMG_BF_SMILEY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "3760375d-3439-40d1-b69e-c4119e81b1e7",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
